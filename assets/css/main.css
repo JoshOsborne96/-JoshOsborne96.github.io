@@ -2721,7 +2721,7 @@ input, select, textarea {
 		}
 
 		.spotlight:nth-child(2) {
-			background-color: #21b2a6
+			background-color: rgb(14, 27, 83)
 		}
 
 		.spotlight:nth-child(3) {
@@ -2729,7 +2729,7 @@ input, select, textarea {
 		}
 
 		.spotlight:nth-child(4) {
-			background-color: #21b2a6
+			background-color: rgb(14, 27, 83)
 		}
 
 		.spotlight:nth-child(5) {
@@ -2831,7 +2831,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #505393;
+			background-color: rgb(14, 27, 83);
 			color: #c8ece9;
 		}
 
@@ -3847,7 +3847,7 @@ input, select, textarea {
 		#main > header p {
 			color: inherit;
 			letter-spacing: 0.225em;
-			text-transform: uppercase;
+			/* text-transform: uppercase; */
 			top: 0;
 		}
 
@@ -4055,9 +4055,29 @@ input, select, textarea {
 	}
 
 	.blackHeader {
-		color: black;
+		color: rgb(14, 27, 83)
 	}
 
 	.blackBody {
-		color: black;
+		color: rgb(14, 27, 83)
+	}
+
+	.header3 {
+		text-decoration: underline;
+	}
+
+	.dateP {
+		font-style: italic;
+	}
+
+	#objective {
+		margin-left: 100px;
+		margin-right: 100px;
+	}
+
+	.vsIcon {
+		display: flex;
+		position: relative;
+		top: 300px;
+		left: 30px;
 	}
